@@ -13,7 +13,7 @@ const Header = ({ isSaving }: { isSaving?: boolean }) => {
             <Link href="/">
               <div className="flex flex-shrink-0 items-center gap-4">
                 <Icons.logo />
-                <h1 className="text-lg font-bold">Prisma Editor</h1>
+                <h1 className="text-lg font-bold">Super Engineer</h1>
                 {isSaving ? (
                   <div title="Saving state...">
                     <Icons.spinner />

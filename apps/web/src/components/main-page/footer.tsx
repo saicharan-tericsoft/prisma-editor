@@ -13,7 +13,7 @@ export default function Footer() {
                 <Link href="/">
                   <div className="flex flex-shrink-0 items-center gap-4">
                     <Icons.logo />
-                    <span className="text-lg font-bold">Prisma Editor</span>
+                    <span className="text-lg font-bold">Super Engineer</span>
                   </div>
                 </Link>
               </div>

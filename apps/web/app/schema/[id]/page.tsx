@@ -6,7 +6,7 @@ import Panels from "./components/panels";
 import { SchemaHeader } from "./components/schema-header";
 import { getSchemaAsUpdate } from "./doc-utils";
 import { redirect } from "next/navigation";
-
+import "./page.css"
 const demoRoomId = -1;
 
 const Schema = async ({
@@ -103,8 +103,9 @@ const Schema = async ({
     });
   }
 
+
   return (
-    <div className="h-screen overflow-hidden">
+    <div className="editor-screen">
       <YDocProvider
         yDocUpdate={doc.YDoc!}
         room={id}

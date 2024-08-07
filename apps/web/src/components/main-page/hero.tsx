@@ -19,7 +19,7 @@ export default function Hero() {
             schema.
           </p>
           <h1 className="sr-only">
-            Prisma Editor
+            Super Engineer
           </h1>
           <h1 className="sr-only">
             Prisma Schema
